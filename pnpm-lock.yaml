@@ -15,8 +15,8 @@ importers:
         specifier: ^1.9.3
         version: 1.9.3
       vite-express:
-        specifier: ^0.19.0
-        version: 0.19.0
+        specifier: ^0.20.0
+        version: 0.20.0
     devDependencies:
       '@types/express':
         specifier: ^4.17.21
@@ -1088,8 +1088,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vite-express@0.19.0:
-    resolution: {integrity: sha512-ktCeka2A2f9IlRkrqfg1oz1mdRRbev6dIXUQqTojDGf+d5QBZzkWLQMCqzNEv3AUN3wod62dG7sgyEcoaBTjjg==}
+  vite-express@0.20.0:
+    resolution: {integrity: sha512-2HcPLoHFjSJIilDDLGstF2X9gxuitTPpAI012j7O6JpEPpcOFvz+lLoA+UlOJG030+uk7ZaWoyG1lC0h15/Ltg==}
 
   vite-plugin-solid@2.10.2:
     resolution: {integrity: sha512-AOEtwMe2baBSXMXdo+BUwECC8IFHcKS6WQV/1NEd+Q7vHPap5fmIhLcAzr+DUJ04/KHx/1UBU0l1/GWP+rMAPQ==}
@@ -2136,7 +2136,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-express@0.19.0:
+  vite-express@0.20.0:
     dependencies:
       express-static-gzip: 2.2.0
       picocolors: 1.1.1
