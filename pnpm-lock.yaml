@@ -23,7 +23,7 @@ importers:
         version: 4.17.21
       '@types/node':
         specifier: ^20.17.6
-        version: 20.17.6
+        version: 20.17.17
       nodemon:
         specifier: ^3.1.7
         version: 3.1.7
@@ -35,10 +35,10 @@ importers:
         version: 5.6.3
       vite:
         specifier: ^5.4.11
-        version: 5.4.14(@types/node@20.17.6)
+        version: 5.4.14(@types/node@20.17.17)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(solid-js@1.9.3)(vite@5.4.14(@types/node@20.17.6))
+        version: 2.10.2(solid-js@1.9.3)(vite@5.4.14(@types/node@20.17.17))
 
 packages:
 
@@ -551,8 +551,8 @@ packages:
   '@types/mime@1.3.5':
     resolution: {integrity: sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==}
 
-  '@types/node@20.17.6':
-    resolution: {integrity: sha512-VEI7OdvK2wP7XHnsuXbAJnEpEkF6NjSN45QJlL4VGqZSXsnicpesdTWsg9RISeSdYd3yeRj/y3k5KGjUXYnFwQ==}
+  '@types/node@20.17.17':
+    resolution: {integrity: sha512-/WndGO4kIfMicEQLTi/mDANUu/iVUhT7KboZPdEqqHQ4aTS+3qT3U5gIqWDFV+XouorjfgGqvKILJeHhuQgFYg==}
 
   '@types/qs@6.9.17':
     resolution: {integrity: sha512-rX4/bPcfmvxHDv0XjfJELTTr+iB+tn032nPILqHm5wbthUUUuVtNGGqzhya9XUxjTP8Fpr0qYgSZZKxGY++svQ==}
@@ -1503,17 +1503,17 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 20.17.6
+      '@types/node': 20.17.17
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.17
 
   '@types/estree@1.0.6': {}
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.17
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -1529,7 +1529,7 @@ snapshots:
 
   '@types/mime@1.3.5': {}
 
-  '@types/node@20.17.6':
+  '@types/node@20.17.17':
     dependencies:
       undici-types: 6.19.8
 
@@ -1540,12 +1540,12 @@ snapshots:
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 20.17.6
+      '@types/node': 20.17.17
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 20.17.6
+      '@types/node': 20.17.17
       '@types/send': 0.17.4
 
   accepts@1.3.8:
@@ -2152,7 +2152,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.10.2(solid-js@1.9.3)(vite@5.4.14(@types/node@20.17.6)):
+  vite-plugin-solid@2.10.2(solid-js@1.9.3)(vite@5.4.14(@types/node@20.17.17)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
@@ -2160,22 +2160,22 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 5.4.14(@types/node@20.17.6)
-      vitefu: 0.2.5(vite@5.4.14(@types/node@20.17.6))
+      vite: 5.4.14(@types/node@20.17.17)
+      vitefu: 0.2.5(vite@5.4.14(@types/node@20.17.17))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.14(@types/node@20.17.6):
+  vite@5.4.14(@types/node@20.17.17):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.1
       rollup: 4.34.0
     optionalDependencies:
-      '@types/node': 20.17.6
+      '@types/node': 20.17.17
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.14(@types/node@20.17.6)):
+  vitefu@0.2.5(vite@5.4.14(@types/node@20.17.17)):
     optionalDependencies:
-      vite: 5.4.14(@types/node@20.17.6)
+      vite: 5.4.14(@types/node@20.17.17)
 
   yallist@3.1.1: {}
